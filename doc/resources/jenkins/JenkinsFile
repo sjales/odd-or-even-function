@@ -1,5 +1,5 @@
 node {
-    label 'master'
+    label ''
     
     stage('Init') {
         checkout scm
