@@ -1,5 +1,5 @@
 node {
-    label ''
+    label 'terraform-corp'
     
     stage('Init') {
         checkout scm
