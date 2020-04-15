@@ -1,4 +1,7 @@
 node {
+    agent {
+        label master
+    }
     stage('Init') {
         checkout scm
     }
